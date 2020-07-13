@@ -1,0 +1,15 @@
+*,*::after,*::before {
+    margin: 0;
+    padding:0;
+    box-sizing:initial;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Help to inherit below css to every element or child of body */
+body {
+    /* Not inherited */
+    padding: 3rem;
+}

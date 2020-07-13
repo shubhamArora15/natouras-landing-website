@@ -1,0 +1,41 @@
+/* 
+3 pillors of HTML, CSS
+
+RESPONSIVE DESIGN
+MAINTANABLE AND SCALABLE CODE
+WEB PERFOMANCE
+
+parsing > importance > specificity > source order
+*/
+
+// Abstract files for other files
+
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// Base files
+
+@import "base/base";
+@import "base/animation";
+@import "base/typography";
+@import "base/utilities";
+
+
+// Building sections of web app
+
+@import "pages/home";
+
+@import "layouts/header";
+@import "layouts/grid";
+
+
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
+
+
